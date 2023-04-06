@@ -1,8 +1,11 @@
 package Basic;
 
+import org.testng.annotations.Test;
+
 public class HelloWorld {
 
-	public static void main(String[] args) {
+	@Test
+	public void main() {
 
 		System.out.println("Hello World and Jesus");
 
