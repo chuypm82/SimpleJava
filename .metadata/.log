@@ -1,0 +1,87 @@
+!SESSION 2023-04-06 11:55:48.021 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-04-06 11:55:50.590
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-04-06 11:55:50.590
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c0a3826,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4af0c50,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-04-06 11:55:50.590
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ffd35dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@311a09b2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-06 11:55:53.198
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\625337'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 11:56:19.733
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 11:56:19.738
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 11:56:47.093
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 11:56:47.098
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-04-06 11:56:50.039
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\target\classes C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59123 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-1290820016\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\target\classes:C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar:C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar:C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar:C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 59123 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-1290820016\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 11:57:39.202
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 11:57:39.206
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-04-06 11:57:40.493
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\target\classes C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59033 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--673445713\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\target\classes:C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar:C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar:C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar:C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 59033 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\DemoMavenEcliipseSimpleProject\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--673445713\testng-customsuite.xml
