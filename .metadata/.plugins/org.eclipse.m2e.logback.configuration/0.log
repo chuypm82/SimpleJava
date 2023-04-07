@@ -69,3 +69,457 @@
 2023-04-06 15:33:30,991 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2023-04-06 15:33:30,991 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-04-06 15:33:30,993 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-06 18:26:05,257 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 18:26:05,259 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-06 18:26:05,260 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 18:26:05,261 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-06 18:26:06,266 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 18:26:06,268 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-06 18:26:06,270 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 18:26:06,271 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:12:17,836 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-07 14:13:21,419 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:13:21,653 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:13:21,655 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:13:21,657 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:13:21,658 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:13:28,982 [Worker-15: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:13:28,982 [Worker-15: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:13:32,738 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:13:32,740 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:13:32,741 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:13:32,742 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:13:33,799 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:13:33,801 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:13:33,802 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:13:33,803 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:13:44,917 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-04-07 14:13:50,914 [Worker-30: Launching SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:13:50,915 [Worker-30: Launching SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2023-04-07 14:14:48,529 [Worker-13: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:14:48,530 [Worker-13: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:14:51,942 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:14:51,943 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:14:51,944 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:14:51,946 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:15:32,315 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-07 14:15:32,570 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:15:32,741 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SimpleJava/src/main/java because it overlaps with /SimpleJava/src
+2023-04-07 14:15:32,742 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SimpleJava/src/test/java because it overlaps with /SimpleJava/src
+2023-04-07 14:15:32,832 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-04-07 14:15:33,021 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:15:33,023 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:15:33,024 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:15:33,025 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:16:08,403 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:16:08,405 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:16:08,405 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:16:08,407 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:16:39,726 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:16:39,728 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:16:39,729 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:16:39,730 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:17:05,794 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-07 14:17:06,036 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:17:06,209 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/main/java
+2023-04-07 14:17:06,210 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/test/java
+2023-04-07 14:17:06,278 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-04-07 14:17:06,453 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:17:06,455 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:17:06,456 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:17:06,457 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:18:07,950 [Worker-22: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:18:07,950 [Worker-22: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:18:11,413 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:18:11,415 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:18:11,415 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:18:11,417 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:19:39,068 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:19:39,072 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:19:39,073 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:19:39,075 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:19:39,078 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:19:39,080 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:19:39,080 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:19:39,081 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:19:42,938 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:19:42,940 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:19:42,940 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:19:42,941 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:20:32,293 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:20:32,298 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:20:32,298 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:20:32,300 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:20:34,378 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:20:34,379 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:20:34,380 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:20:34,381 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:20:57,232 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:20:57,234 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:20:57,235 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:20:57,237 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:21:16,619 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:21:16,621 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:21:16,622 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:21:16,625 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:21:38,095 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-07 14:21:38,309 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:21:38,481 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/main/java
+2023-04-07 14:21:38,482 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/test/java
+2023-04-07 14:21:38,558 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-04-07 14:21:38,735 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:21:38,736 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:21:38,737 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:21:38,738 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:22:00,138 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-04-07 14:22:00,183 [Worker-31: Launching SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:22:00,183 [Worker-31: Launching SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2023-04-07 14:22:29,390 [Worker-37: Launching Executing clean in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:22:29,390 [Worker-37: Launching Executing clean in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2023-04-07 14:22:31,129 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:22:31,131 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:22:31,131 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:22:31,133 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:22:41,270 [Worker-28: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:22:41,270 [Worker-28: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:22:44,781 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:22:44,783 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:22:44,784 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:22:44,785 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:22:58,147 [Worker-37: Launching Executing clean in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:22:58,147 [Worker-37: Launching Executing clean in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2023-04-07 14:22:59,816 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:22:59,817 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:22:59,818 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:22:59,819 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:23:09,679 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-04-07 14:23:15,590 [Worker-37: Launching SimpleJava (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:23:15,590 [Worker-37: Launching SimpleJava (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B build
+2023-04-07 14:23:26,693 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-04-07 14:23:30,544 [Worker-37: Launching SimpleJava (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:23:30,544 [Worker-37: Launching SimpleJava (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:24:06,871 [Worker-28: Launching Executing install in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:24:06,871 [Worker-28: Launching Executing install in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2023-04-07 14:24:10,290 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:24:10,292 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:24:10,292 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:24:10,293 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:25:53,237 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:25:53,239 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:25:53,240 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:25:53,241 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:27:19,080 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-04-07 14:27:24,173 [Worker-31: Launching SimpleJava (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:27:24,173 [Worker-31: Launching SimpleJava (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2023-04-07 14:27:33,991 [Worker-31: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:27:33,991 [Worker-31: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:27:36,231 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:27:36,233 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:27:36,234 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:27:36,235 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:27:56,498 [Worker-28: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:27:56,498 [Worker-28: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:27:58,752 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:27:58,753 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:27:58,754 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:27:58,756 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:28:22,533 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:28:22,535 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:28:22,536 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:28:22,539 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:28:26,309 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:28:26,311 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:28:26,311 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:28:26,313 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:28:36,179 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:28:36,181 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:28:36,181 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:28:36,183 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:28:42,812 [Worker-38: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:28:42,813 [Worker-38: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:28:46,518 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:28:46,520 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:28:46,520 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:28:46,521 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:29:04,158 [Worker-0: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:29:04,158 [Worker-0: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:29:07,842 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:29:07,843 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:29:07,844 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:29:07,845 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:29:20,256 [Worker-31: Launching Executing install in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:29:20,256 [Worker-31: Launching Executing install in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2023-04-07 14:29:24,233 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:29:24,235 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:29:24,236 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:29:24,237 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:29:40,419 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-04-07 14:29:44,625 [Worker-7: Launching SimpleJava (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:29:44,625 [Worker-7: Launching SimpleJava (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B celan install
+2023-04-07 14:30:00,003 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-04-07 14:30:05,764 [Worker-31: Launching SimpleJava (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:30:05,765 [Worker-31: Launching SimpleJava (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2023-04-07 14:30:23,322 [Worker-37: Launching Executing clean in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:30:23,322 [Worker-37: Launching Executing clean in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2023-04-07 14:30:24,999 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:30:25,001 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:30:25,002 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:30:25,004 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:30:30,441 [Worker-38: Launching Executing install in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:30:30,442 [Worker-38: Launching Executing install in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2023-04-07 14:30:33,874 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:30:33,876 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:30:33,877 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:30:33,878 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:30:47,551 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: bin/Basic [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:655) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:53) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:69) ~[na:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:77) ~[na:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:123) ~[na:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:338) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:323) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:212) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$2.run(PartServiceImpl.java:250) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:247) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:771) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:680) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:675) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3215) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3097) ~[na:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3095) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3065) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3056) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:380) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:184) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252) ~[na:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366) ~[na:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545) ~[na:na]
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48) ~[na:na]
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:800) ~[org.eclipse.jface_3.26.0.v20220513-0449.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174) ~[org.eclipse.jface_3.26.0.v20220513-0449.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:797) ~[org.eclipse.jface_3.26.0.v20220513-0449.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1116) ~[org.eclipse.jface_3.26.0.v20220513-0449.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296) ~[org.eclipse.jface_3.26.0.v20220513-0449.jar:na]
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331) ~[org.eclipse.jface_3.26.0.v20220513-0449.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) ~[org.eclipse.equinox.app_1.6.100.v20211021-1418.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136) ~[org.eclipse.osgi_3.18.0.v20220516-2155.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) ~[org.eclipse.osgi_3.18.0.v20220516-2155.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402) ~[org.eclipse.osgi_3.18.0.v20220516-2155.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) ~[org.eclipse.osgi_3.18.0.v20220516-2155.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659) ~[org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596) ~[org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467) ~[org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar:na]
+2023-04-07 14:31:18,009 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-07 14:31:18,222 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:31:18,327 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/main/java
+2023-04-07 14:31:18,327 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/test/java
+2023-04-07 14:31:18,376 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-04-07 14:31:18,527 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:31:18,529 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:31:18,529 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:31:18,531 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:31:59,322 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:31:59,324 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:31:59,324 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:31:59,326 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:33:29,690 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-07 14:33:29,910 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:33:30,019 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/main/java
+2023-04-07 14:33:30,019 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/test/java
+2023-04-07 14:33:30,065 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-04-07 14:33:30,214 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:33:30,216 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:33:30,216 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:33:30,218 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:37:03,251 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:03,253 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:37:03,253 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:03,255 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:37:09,623 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:09,625 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:37:09,626 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:09,627 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:37:22,187 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: bin/Basic [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:655) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:53) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:69) ~[na:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:77) ~[na:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:123) ~[na:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:338) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:323) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:212) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$2.run(PartServiceImpl.java:250) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.16.100.v20220315-2327.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:247) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:771) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:680) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97) ~[na:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.lambda$4(StackRenderer.java:979) ~[na:na]
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645) ~[org.eclipse.swt.win32.win32.x86_64_3.120.0.v20220530-1036.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) ~[org.eclipse.equinox.app_1.6.100.v20211021-1418.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136) ~[org.eclipse.osgi_3.18.0.v20220516-2155.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) ~[org.eclipse.osgi_3.18.0.v20220516-2155.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402) ~[org.eclipse.osgi_3.18.0.v20220516-2155.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) ~[org.eclipse.osgi_3.18.0.v20220516-2155.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659) ~[org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596) ~[org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467) ~[org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar:na]
+2023-04-07 14:37:42,129 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:42,131 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:37:42,132 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:42,134 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:37:47,808 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:47,811 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:37:47,812 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:47,814 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:37:52,899 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:52,901 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:37:52,902 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:52,903 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:37:58,431 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:58,433 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:37:58,433 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:37:58,435 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:38:40,179 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-07 14:38:40,398 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:38:40,509 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/main/java
+2023-04-07 14:38:40,510 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/test/java
+2023-04-07 14:38:40,567 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-04-07 14:38:40,734 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:38:40,736 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:38:40,737 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:38:40,738 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:39:09,167 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:39:09,179 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\main\resources
+2023-04-07 14:39:09,179 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:39:09,182 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\src\test\resources
+2023-04-07 14:40:54,810 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:40:54,813 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:40:54,814 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:40:54,816 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:41:53,730 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-07 14:41:53,954 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:41:54,080 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/main/java
+2023-04-07 14:41:54,080 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SimpleJava/src/main/resources
+2023-04-07 14:41:54,081 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/test/java
+2023-04-07 14:41:54,081 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SimpleJava/src/test/resources
+2023-04-07 14:41:54,139 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-04-07 14:41:54,325 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:41:54,327 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:41:54,328 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:41:54,329 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:42:12,981 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:42:12,983 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:42:12,983 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:42:12,985 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:42:50,935 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-07 14:42:51,154 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:42:51,266 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/main/java
+2023-04-07 14:42:51,266 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SimpleJava/src/main/resources
+2023-04-07 14:42:51,266 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleJava/src/test/java
+2023-04-07 14:42:51,267 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SimpleJava/src/test/resources
+2023-04-07 14:42:51,317 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-04-07 14:42:51,443 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:42:51,445 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:42:51,445 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:42:51,447 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:43:46,915 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:43:46,916 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:43:46,917 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:43:46,918 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:44:22,521 [Worker-44: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SimpleJava:SimpleJava:0.0.1-SNAPSHOT @ C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\pom.xml.
+2023-04-07 14:44:22,656 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:44:22,658 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:44:22,659 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:44:22,660 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:44:23,813 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:44:23,814 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:44:23,815 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:44:23,817 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:44:42,101 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:44:42,102 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:44:42,103 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:44:42,104 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:45:31,312 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:45:31,314 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:45:31,315 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:45:31,317 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:45:43,925 [Worker-48: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:45:43,925 [Worker-48: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:45:46,360 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:45:46,362 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:45:46,363 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:45:46,364 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:45:57,476 [Worker-45: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava
+2023-04-07 14:45:57,476 [Worker-45: Launching Executing test in C__Users_625337_OneDrive - BOOZ ALLEN HAMILTON_Documents_Personal_Trainings_Selenium_Workspaces_Maven-Simple_SimpleJava] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-04-07 14:46:01,494 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:46:01,496 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 14:46:01,496 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 14:46:01,498 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

@@ -320,3 +320,1315 @@ java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclips
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 53619 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
 java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 53619 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 18:26:05.258
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 18:26:05.261
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 18:26:06.268
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-06 18:26:06.271
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-04-07 13:44:06.758
+!MESSAGE org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$12(LanguageServerWrapper.java:456)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:270)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy12/jdk.proxy12.$Proxy50.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$12(LanguageServerWrapper.java:454)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+!SESSION 2023-04-07 14:11:56.872 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-04-07 14:12:14.347
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-04-07 14:12:14.347
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6723e6b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3883b5e9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-04-07 14:12:14.347
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61becbcf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20171cdc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-07 14:12:17.843
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\625337'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:12:31.517
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54519 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-355358512\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54519 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-355358512\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:12:50.713
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54527 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54527 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:13:21.654
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:13:21.657
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:13:32.739
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:13:32.742
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:13:33.800
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:13:33.802
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:14:51.943
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:14:51.945
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:15:08.927
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54564 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--375866901\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54564 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--375866901\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:15:33.022
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:15:33.025
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:15:33.348
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:15:33.349
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:15:39.513
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:15:39.513
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:15:41.725
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54573 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1218220161\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54573 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1218220161\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:16:08.404
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:16:08.406
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:16:08.807
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:16:08.808
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:16:13.572
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:16:13.572
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:16:15.781
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54580 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-28796997\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54580 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-28796997\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:16:39.727
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:16:39.729
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:16:40.132
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:16:40.132
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:16:42.411
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:16:42.411
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:16:44.432
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54587 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-1836609485\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54587 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-1836609485\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:17:06.454
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:17:06.457
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:17:06.778
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:17:06.779
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:17:08.681
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:17:08.681
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:17:11.283
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54604 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-1869728539\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54604 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-1869728539\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:17:26.982
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54613 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54613 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:18:11.414
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:18:11.416
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:19:39.069
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:19:39.074
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:19:39.079
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:19:39.081
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:19:42.939
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:19:42.941
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:19:55.861
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54651 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54651 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:20:01.302
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:20:01.303
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:20:06.390
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54658 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-1029662991\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54658 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-1029662991\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:20:15.318
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54660 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1026435131\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54660 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1026435131\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:20:32.295
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:20:32.299
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:20:34.379
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:20:34.381
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:20:34.501
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:20:34.501
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:20:35.497
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:20:35.497
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:20:37.386
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54667 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-204037824\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54667 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-204037824\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:20:57.233
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:20:57.236
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:20:57.635
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:20:57.635
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:21:01.008
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:21:01.008
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:21:04.433
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54677 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-431271182\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54677 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-431271182\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:21:16.620
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:21:16.623
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:21:16.975
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:21:16.975
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:21:20.710
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:21:20.710
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:21:22.605
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54681 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--2069196596\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54681 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--2069196596\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:21:38.736
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:21:38.738
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:21:38.943
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:21:38.943
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:21:40.649
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54688 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--758311121\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54688 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--758311121\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:22:31.130
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:22:31.132
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:22:44.783
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:22:44.785
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:22:59.817
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:22:59.819
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:24:10.291
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:24:10.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:24:10.660
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:24:10.660
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:25:16.658
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:25:16.658
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:25:53.238
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:25:53.240
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:26:06.557
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:26:06.557
+!MESSAGE src [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:26:18.895
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54752 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1696563735\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54752 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1696563735\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:26:49.684
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54762 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54762 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:27:36.232
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:27:36.234
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:27:58.753
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:27:58.755
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:28:22.534
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:28:22.537
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:28:26.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:28:26.311
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:28:36.180
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:28:36.182
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:28:46.519
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:28:46.521
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:29:07.843
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:29:07.845
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:29:24.234
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:29:24.236
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:30:25.001
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:30:25.003
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:30:33.875
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:30:33.878
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:30:47.481
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): bin/Basic [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:30:47.482
+!MESSAGE bin/Basic [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:30:47.484
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): bin/Basic [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:30:47.484
+!MESSAGE bin/Basic [in SimpleJava] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-04-07 14:30:47.552
+!MESSAGE Could not schedule source download
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): bin/Basic [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:530)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:655)
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:53)
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:69)
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:77)
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:123)
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:338)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:323)
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:212)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$2.run(PartServiceImpl.java:250)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:247)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:771)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:680)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:675)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3215)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3097)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3095)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3065)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3056)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:380)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:184)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:366)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$3.open(PackageExplorerPart.java:545)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:800)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:797)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1116)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:30:47.553
+!MESSAGE bin/Basic [in SimpleJava] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:31:18.528
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:31:18.530
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:31:59.323
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:31:59.325
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:32:22.840
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:32:22.840
+!MESSAGE src/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:32:22.842
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:32:22.842
+!MESSAGE src/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:32:23.139
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:32:23.139
+!MESSAGE src/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:32:35.951
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54839 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1653519475\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54839 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1653519475\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:33:30.215
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:33:30.217
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:33:30.570
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:33:30.570
+!MESSAGE src/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:35:29.312
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54917 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1406188579\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 54917 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--1406188579\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:36:04.293
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea -javaagent:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\389\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=57613
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57614 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+java -ea -javaagent:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\389\0\.cp\jacocoagent.jar=includes=*,excludes=,exclclassloader=sun.reflect.DelegatingClassLoader,output=tcpclient,port=57613 -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 57614 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:03.252
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:03.254
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:37:09.485
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:37:09.485
+!MESSAGE src/test/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:37:09.488
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:37:09.488
+!MESSAGE src/test/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:09.624
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:09.627
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:37:10.004
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:37:10.005
+!MESSAGE src/test/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-04-07 14:37:22.188
+!MESSAGE Could not schedule source download
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): bin/Basic [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:530)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:655)
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:53)
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:69)
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:77)
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:123)
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:338)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:323)
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:212)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$2.run(PartServiceImpl.java:250)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:247)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:771)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:680)
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.lambda$4(StackRenderer.java:979)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:331)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:37:22.188
+!MESSAGE bin/Basic [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:37:27.098
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:37:27.098
+!MESSAGE src/test/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:37:30.035
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61545 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--206725399\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 61545 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse--206725399\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:42.130
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:42.133
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:37:42.565
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:37:42.566
+!MESSAGE src/test/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:47.810
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:47.813
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:37:52.777
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:37:52.777
+!MESSAGE src/test/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:37:52.779
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:37:52.779
+!MESSAGE src/test/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:52.900
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:52.902
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-04-07 14:37:53.412
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/basicTests [in SimpleJava] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-04-07 14:37:53.412
+!MESSAGE src/test/basicTests [in SimpleJava] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:58.432
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:37:58.434
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:38:40.735
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:38:40.737
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:39:09.178
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:39:09.180
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:40:54.811
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:40:54.814
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:41:54.326
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:41:54.328
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:42:12.982
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:42:12.984
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:42:51.444
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:42:51.446
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:43:46.915
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:43:46.917
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:44:22.657
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:44:22.659
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:44:23.814
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:44:23.816
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:44:42.101
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:44:42.103
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:44:47.175
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61679 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-2098702046\testng-customsuite.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar:C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar:C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar:C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 61679 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\AppData\Local\Temp\testng-eclipse-2098702046\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:45:07.229
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61685 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar:C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar:C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar:C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 61685 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:45:31.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:45:31.316
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2023-04-07 14:45:33.832
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61702 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+java -ea -classpath C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\test-classes:C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\target\classes:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.27.0.v20201111-1638.jar:C:\Users\625337\Documents\Personal\Trainings\Selenium\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\625337\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar:C:\Users\625337\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar:C:\Users\625337\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar:C:\Users\625337\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar:C:\Users\625337\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar:C:\Users\625337\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar:C:\Users\625337\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\625337\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\625337\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar org.testng.remote.RemoteTestNG -serport 61702 -protocol json -d C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\test-output C:\Users\625337\OneDrive - BOOZ ALLEN HAMILTON\Documents\Personal\Trainings\Selenium\Workspaces\Maven-Simple\SimpleJava\testng.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:45:46.361
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:45:46.363
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:46:01.495
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-04-07 14:46:01.497
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
